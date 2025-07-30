@@ -14,7 +14,7 @@ docker ps -a (see all the containers)
 
 docker images (see all the images)
 
-docker run -p3306:3306 --name=mysqml -e MYSQL_ROOT_PASSWORD=<secretPW> mysql (port binding)
+docker run -p3306:3306 --name=mysql -e MYSQL_ROOT_PASSWORD=<secretPW> mysql (port binding)
 
 docker logs containername/id (prints the logs of the container)
 
