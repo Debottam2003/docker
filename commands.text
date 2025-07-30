@@ -20,3 +20,8 @@ docker logs containername/id (prints the logs of the container)
 
 docker network create netwotk_name(creates a new network)
 
+docker build -t myapp. (creating image of myapp)
+
+docker run --name server --env-file .env -p 3333:3333 myapp (creating container of my app image)
+
+
