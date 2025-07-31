@@ -24,4 +24,9 @@ docker build -t myapp. (creating image of myapp)
 
 docker run --name server --env-file .env -p 3333:3333 myapp (creating container of my app image)
 
+docker rm <container_id_or_name> ( Remove container )
+
+docker rmi <image_id_or_name> ( Remove image )
+
+
 
